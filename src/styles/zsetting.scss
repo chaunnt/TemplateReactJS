@@ -1,0 +1,21 @@
+.zsetting {
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+
+  &__items {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hsla(0, 0%, 100%, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:not(:last-child) {
+      margin-right: 12px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.lmenu {
+  &__wrapper {
+    margin-top: 6px;
+  }
+
+  &__items {
+    display: flex;
+    align-items: center;
+    padding: 8px 25px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  &__items-active {
+    background-color: #3a3344;
+
+    &::before {
+      display: block;
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 3px;
+      background-color: #9b4de0;
+      left: 0;
+    }
+  }
+}

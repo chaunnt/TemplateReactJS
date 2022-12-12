@@ -1,0 +1,63 @@
+.zing {
+  color: $font-color-base;
+  background-color: $bg;
+  display: flex;
+
+  &__left-side {
+    width: 240px;
+    height: 100vh;
+    background-color: $leftContentColor;
+    flex-shrink: 0;
+
+    position: fixed;
+    transition: all 0.5s;
+
+    &-toggle-btn {
+      position: absolute;
+      right: -45px;
+      top: 15px;
+    }
+
+    &--open {
+      transform: translateX(0);
+    }
+
+    &--close {
+      transform: translateX(-100%);
+    }
+
+    @media (min-width: 768px) {
+      position: initial;
+      transform: translateX(0);
+
+      &-toggle-btn {
+        display: none;
+      }
+    }
+  }
+
+  &__wrapper-logo {
+    padding: 15px 25px 0 25px;
+  }
+
+  &__logo {
+    width: 120px;
+    height: 40px;
+    background: url('https://zmp3-static.zmdcdn.me/skins/zmp3-v6.1/images/backgrounds/logo-dark.svg') 50% / contain
+      no-repeat;
+  }
+
+  &__main-content {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  &__header {
+    padding: 0 60px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
