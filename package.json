@@ -13,7 +13,7 @@
     "i18next": "^19.0.3",
     "normalize.css": "^8.0.1",
     "object-assign": "^4.1.1",
-    "prop-types": "^15.7.2",
+    "prop-types": "^15.8.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-i18next": "^11.2.7",

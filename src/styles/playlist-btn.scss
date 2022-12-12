@@ -1,0 +1,15 @@
+.playlist-btn {
+  &__wrapper {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid hsla(0, 0%, 100%, 0.1);
+    width: 100%;
+    bottom: 0;
+    padding: 12px 0;
+  }
+
+  background-color: #231b2e;
+  font-weight: bold;
+}
