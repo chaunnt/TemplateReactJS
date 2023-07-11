@@ -1,0 +1,218 @@
+@media (min-width: 1023px) {
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1199px) {
+  .header {
+    .main-title {
+      .title {
+        font-size: 45px !important;
+      }
+    }
+  }
+  .body {
+    .device {
+      justify-content: space-between;
+      width: 100%;
+    }
+    .img-detail {
+      width: 20%;
+      padding: 8px;
+      border-radius: 20px;
+    }
+  }
+}
+/* Mobile */
+@media (max-width: 739px) {
+  .header {
+    .main-title {
+      .title {
+        font-size: 25px !important;
+      }
+      .linksure {
+        font-size: 14px !important;
+      }
+    }
+    .more {
+      width: 100%;
+    }
+    .banner-img {
+      img {
+        width: 100px;
+      }
+    }
+    .btn-install {
+      font-size: 13px;
+      button {
+        width: 100%;
+        border-radius: 12px;
+      }
+    }
+  }
+  .body {
+    display: block;
+    .device {
+      justify-content: space-between;
+      width: 100%;
+    }
+    .img-detail {
+      width: 20%;
+      padding: 8px;
+      border-radius: 20px;
+    }
+    .device {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 8px;
+    }
+    .danhgia {
+      margin-bottom: 2rem;
+      .vote-poin {
+        margin-bottom: 3rem;
+        .vote-num {
+          font-size: 35px;
+          font-weight: 500;
+          margin-bottom: 0;
+        }
+        div {
+          svg {
+            width: 10px;
+          }
+        }
+      }
+    }
+  }
+  .banner {
+    .app-view {
+      display: grid;
+      gap: 0 10px;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .footer {
+    color: #7f7c7c;
+    .footer-content {
+      display: flex;
+      margin-bottom: 1.5rem;
+      gap: 5rem;
+      ul {
+        padding: 0;
+        li {
+          margin-bottom: 0.7rem;
+        }
+      }
+      .foo-title {
+        font-weight: 600;
+      }
+    }
+    .footer-more {
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+
+      .foo-more {
+        display: flex;
+        gap: 0.7rem;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+      }
+      .foo-img {
+        display: flex;
+        font-size: 10px;
+        img {
+          width: 2rem;
+          height: 1.5rem;
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+  .container {
+    margin-left: -1.5rem !important;
+  }
+  .header {
+    .main-title {
+      .title {
+        font-size: 16px !important;
+      }
+      .linksure {
+        font-size: 12px !important;
+      }
+    }
+    .more {
+      width: 150%;
+    }
+    .banner-img {
+      img {
+        width: 80px;
+      }
+    }
+    .btn-install {
+      font-size: 11px;
+      width: 140%;
+      button {
+        width: 100%;
+        border-radius: 12px;
+      }
+    }
+  }
+  .body {
+    .more-app {
+      width: 120%;
+      .app-title {
+        display: flex;
+        gap: 1rem;
+      }
+      .app-content {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        img {
+          border-radius: 8px;
+        }
+      }
+      .app-info {
+        .star {
+          width: 15px;
+          color: #036828;
+        }
+      }
+    }
+  }
+  .banner {
+    .app-view {
+      display: grid;
+      gap: 0 5px;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .footer {
+    color: #7f7c7c;
+    .footer-content {
+      display: inline;
+      margin-bottom: 1.5rem;
+      gap: 5rem;
+      ul {
+        padding: 0;
+        margin-bottom: 2rem;
+        li {
+          margin-bottom: 0.7rem;
+        }
+      }
+      .foo-title {
+        font-weight: 600;
+      }
+    }
+    .footer-more {
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+      display: inline;
+
+      .foo-more {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

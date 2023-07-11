@@ -1,12 +1,12 @@
-import React, { Component, Fragment, Suspense } from "react";
-import PropTypes from "prop-types";
-import { MuiThemeProvider, CssBaseline } from "@material-ui/core";
-import { BrowserRouter} from "react-router-dom";
-import { App } from "./views";
-import { Provider as ReduxProvider } from "react-redux";
-import ReduxToastr from "react-redux-toastr";
-import theme from "./theme";
-import GlobalStyles from "./GlobalStyles";
+import React, { Component, Fragment, Suspense } from 'react';
+import PropTypes from 'prop-types';
+import { MuiThemeProvider, CssBaseline } from '@material-ui/core';
+import { BrowserRouter } from 'react-router-dom';
+import { App } from './views';
+import { Provider as ReduxProvider } from 'react-redux';
+import ReduxToastr from 'react-redux-toastr';
+import theme from './theme';
+import GlobalStyles from './GlobalStyles';
 
 export default class Root extends Component {
   render() {
@@ -18,7 +18,7 @@ export default class Root extends Component {
             <CssBaseline />
             <GlobalStyles />
             <Suspense fallback={<Fragment />}>
-          <App/>
+              <App />
             </Suspense>
           </MuiThemeProvider>
         </BrowserRouter>
@@ -40,5 +40,5 @@ export default class Root extends Component {
 }
 
 Root.propTypes = {
-  store: PropTypes.object.isRequired
+  store: PropTypes.object.isRequired,
 };
